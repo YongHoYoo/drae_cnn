@@ -2,6 +2,8 @@ import torch
 import torch.nn as nn
 from torch.nn._functions.thnn import rnnFusedPointwise as fusedBackend 
 
+# test
+
 class Decoder_conv(nn.Module): 
     def __init__(self, nlayers, ninp, nhid, nstride=1, is_attn=False): 
 
